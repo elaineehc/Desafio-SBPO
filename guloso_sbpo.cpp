@@ -88,10 +88,8 @@ void seleciona_pedidos(){
 
 int main(){
 
-	ifstream input("entrada.txt");
-	//ifstream input("entrada2.txt");
-	//ifstream input("instance_0001.txt");
-	ofstream output("saida.txt");
+	ifstream input("entrada.txt"); //arquivo de entrada
+	ofstream output("saida.txt");  //arquivo de saida
 
 	input>>N>>K>>M;
 
